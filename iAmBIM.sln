@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RibonPanel", "RibomPanel\RibonPanel.csproj", "{C0BE8DF1-D541-4084-8784-F579E56017BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_General", "00_General", "{8E066053-1F0D-42BA-B3F4-3A71DEE2CB8E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "iAmBIM_Setup", "iAmBIM_Setup\iAmBIM_Setup.vdproj", "{EA665139-4292-4611-A6C7-2B0CDC8FE55D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_CDE", "01_CDE", "{942F7E23-6036-4647-8283-13DD73774D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareProject", "ShareProject\ShareProject.csproj", "{75800B96-555E-412C-A1A0-12E084DA55F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0BE8DF1-D541-4084-8784-F579E56017BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BE8DF1-D541-4084-8784-F579E56017BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BE8DF1-D541-4084-8784-F579E56017BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BE8DF1-D541-4084-8784-F579E56017BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA665139-4292-4611-A6C7-2B0CDC8FE55D}.Debug|Any CPU.ActiveCfg = Debug
+		{EA665139-4292-4611-A6C7-2B0CDC8FE55D}.Release|Any CPU.ActiveCfg = Release
+		{75800B96-555E-412C-A1A0-12E084DA55F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75800B96-555E-412C-A1A0-12E084DA55F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75800B96-555E-412C-A1A0-12E084DA55F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75800B96-555E-412C-A1A0-12E084DA55F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0BE8DF1-D541-4084-8784-F579E56017BD} = {8E066053-1F0D-42BA-B3F4-3A71DEE2CB8E}
+		{EA665139-4292-4611-A6C7-2B0CDC8FE55D} = {8E066053-1F0D-42BA-B3F4-3A71DEE2CB8E}
+		{75800B96-555E-412C-A1A0-12E084DA55F6} = {942F7E23-6036-4647-8283-13DD73774D17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71A9312B-A3DC-4F79-B1B1-68EBB65A6771}
+	EndGlobalSection
+EndGlobal

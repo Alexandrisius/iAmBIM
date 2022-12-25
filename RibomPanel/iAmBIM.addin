@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application iAmBIM</Name>
+    <Assembly>C:\ProgramData\Autodesk\Revit\Addins\2021\iAmBIM\iAmBIM.dll</Assembly>
+    <FullClassName>iAmBIM.App</FullClassName>
+    <ClientId>e6483449-d849-459d-8f5b-a998b95bedb2</ClientId>
+    <VendorId>AGK</VendorId>
+    <VendorDescription>Alexandr Gennadievich Klimovich</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+
