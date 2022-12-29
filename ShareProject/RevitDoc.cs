@@ -19,7 +19,7 @@ namespace ShareProject
             SynchronizeWithCentralOptions syncOpts = new SynchronizeWithCentralOptions();
             RelinquishOptions relinquishOpts = new RelinquishOptions(false);
             syncOpts.SetRelinquishOptions(relinquishOpts);
-            syncOpts.SaveLocalAfter = false;
+            syncOpts.SaveLocalAfter = true;
             syncOpts.Comment = "Revit API - ShareProject";
 
             try
@@ -36,7 +36,7 @@ namespace ShareProject
             // If unable to lock central, give up rather than waiting
             public bool ShouldWaitForLockAvailability()
             {
-                return false;
+                return true;
             }
 
         }
