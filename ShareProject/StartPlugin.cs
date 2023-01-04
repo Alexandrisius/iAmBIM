@@ -104,14 +104,18 @@ namespace ShareProject
 
                 FileInfo openFile = new FileInfo(modelPath);
 
-                string stringNewPath = openFile.DirectoryName.Replace(@"\02_WIP\", @"\03_Shared\");
+                if (openFile.DirectoryName != null)
+                {
+                    string stringNewPath = openFile.DirectoryName.Replace(@"\02_WIP\", @"\03_Shared\");
 
-                string newFileName = openFile.Name.Replace("-S0.rvt", "-S1.rvt");
+                    string newFileName = openFile.Name.Replace("-S0.rvt", "-S1.rvt");
 
-                ModelPath modelPathout = ModelPathUtils.ConvertUserVisiblePathToModelPath(stringNewPath + @"\" + newFileName);
+                    ModelPath modelPathout = ModelPathUtils.ConvertUserVisiblePathToModelPath(stringNewPath + @"\" + newFileName);
 
-                ShareWindow.LabelShare.Content = "Сохраняем модель в зону Shared...";
-                detachSharedModel.SaveAs(modelPathout, options);
+                    ShareWindow.LabelShare.Content = "Сохраняем модель в зону Shared...";
+                    detachSharedModel.SaveAs(modelPathout, options);
+                }
+
                 ShareWindow.addValueProgressBar(75);
 
                 OpenOptions newOpenoptions = new OpenOptions();
