@@ -83,5 +83,35 @@
   <ItemGroup>
     <None Include="Resources\ShareProject_32x32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScheduleAssembly_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScheduleAssembly_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FinishingSchedule16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FinishingSchedule_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RotatEl_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlignEl_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeCon_16х16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RotatEl_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlignEl_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PipeCon_32х32.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
