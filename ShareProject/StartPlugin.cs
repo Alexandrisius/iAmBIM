@@ -21,7 +21,7 @@ namespace ShareProject
             Application app = uiapp.Application;
             Document LocalDoc = uidoc.Document;
 
-            if (ModelChecker.CheckNameModel(LocalDoc))
+            if (ModelChecker.CheckNameModel(LocalDoc, out string error))
             {
                 Stopwatch stopwatch = new Stopwatch();
                 stopwatch.Start();
@@ -159,7 +159,7 @@ namespace ShareProject
 
                 return Result.Succeeded;
             }
-            message = "Именование модели не соответсвует CDE стандарту организации. Пожалуйста, исправьте и попробуйте снова.";
+            message = error;
             return Result.Failed;
         }
     }
